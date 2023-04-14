@@ -22,3 +22,5 @@ echo $configSubmit
 
 echo "[+] Rebooting"
 curl -d "ResetReq=1" $urlRouter$configSubmit
+
+echo "Done"
