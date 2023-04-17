@@ -11,5 +11,5 @@ On a linux machine on your local network add the following cronjob to run every 
 Don't forget to change the ```/path/to/``` with your actual path where you saved the ```reboot.sh``` file
 
 ```bash
-30 6 * * * /bin/bash /path/to/reboot.sh
+30 6 * * * sleep 70 && /path/to/reboot.sh
 ```
